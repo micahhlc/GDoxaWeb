@@ -1,0 +1,150 @@
+html{
+  font-size:16px;
+}
+
+#home{
+  background-color:rgb(32, 32, 32);
+  color:#f0fff0;
+  margin-top:px;
+  height:608px;
+  background-image:  linear-gradient(rgba(0,128,128,0.5), rgba(255,228,196,0.3)),  url("../img/black-modern-minimalistic-desk.jpg");
+  background-size:cover;
+  background-position-x:0%;
+  background-position-y:100%;
+ 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+    
+#home-container{
+  height:100%;
+  padding-top: px;
+  margin-left: auto;
+}
+
+#home-logo{
+    color: #FFD700;
+}
+
+#motto{
+    background-color: #f0ffff;
+    color:#2f4f4f;
+    padding-top:30px;
+    padding-bottom:50px;
+    background-size:cover;
+/*
+    background-position-x:0%;
+    background-position-y:50%;
+*/
+}
+
+#services{
+  background-color: #f0fff0;
+  color:#111111;
+  margin-top:px;
+  margin-bottom:0vh;
+}
+#service-1{
+    background-image: linear-gradient(rgba(0,0,255,0.5), rgba(50,50,50,0.5)),  url("../img/business-woman-working-on-laptop-min.jpg");
+    background-size:cover;
+    color: #f0fff0;
+    position: relative;
+/*      Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:0px; 
+}
+
+#service-2{
+     background-image: linear-gradient(rgba(255,127,80,0.5), rgba(255,127,80,0.5)), url("../img/business-woman-working-on-laptop-min.jpg");
+    background-size:cover;
+    color: #f0fff0;
+/*      Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:0px;
+}
+
+#service-3{
+     background-image: linear-gradient(rgba(210,105,30,0.5), rgba(50,50,50,0.5)), url("../img/business-woman-working-on-laptop-min.jpg");
+    background-size:cover;
+    color: #f0fff0;
+/*      Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:0px;
+}
+#client{
+    background-color: #fffafa;
+    color:#111111;
+    padding-top:30px;
+    
+}
+#contactus{
+    background-image: linear-gradient(rgba(210,105,30,0.5), rgba(50,50,50,0.5)), url("../img/girl-writing-min.jpg"); 
+    background-size:cover;
+    color: #fffff0;
+/*      Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+
+.center{
+    margin: auto;
+}
+.gb-row{
+  margin-top:16px;
+  margin-bottom:10px;
+}
+
+.card img{
+  width:128px;
+  margin-left:auto;
+  margin-right:auto;
+  height:auto !important;
+}
+
+
+
+
+@media only screen and (max-width:749px) {
+    #home{
+        background-attachment: scroll;
+         background-size: cover;
+    }
+    #service-1{
+        background-attachment: scroll;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,255,0.5), rgba(50,50,50,0.5)),  url("../img/business-woman-working-on-laptop-min.jpg");
+    }
+    #service-2{
+        background-attachment: scroll;
+        background-size: cover;
+        background-image: linear-gradient(rgba(255,127,80,0.5), rgba(255,127,80,0.5)), url("../img/typing-on-laptop-min.jpg");
+    }
+    #service-3{
+        background-attachment: scroll;
+        background-size: cover;
+        background-image: linear-gradient(rgba(210,105,30,0.5), rgba(50,50,50,0.5)), url("../img/using-iphone-min.jpg");
+    }
+    #contactus{
+        background-attachment: scroll;
+         background-size: cover;
+    }
+}
+        
